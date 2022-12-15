@@ -1,0 +1,67 @@
+# Author: Tomas Cassanelli
+
+# Look here how to add more style!
+# https://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+
+
+# LINES
+lines.linewidth     : 0.8
+
+# TEXT
+text.usetex         : False
+text.latex.preamble : \usepackage{upgreek}
+mathtext.fontset    : dejavuserif # stix
+# mathtext.default    : regular
+text.color          : black
+
+# FONT
+# font.family       : serif
+font.family         : DejaVu Serif
+font.serif          : Computer Modern Roman
+font.size           : 9
+
+# AXES
+axes.labelsize      : 8
+axes.linewidth      : 0.5
+axes.titlesize      : 9
+axes.grid           : False
+# axes.prop_cycle     : cycler('color', ['1f2db4', 'b41f2d', '1fb4a6', 'b4a61f'])
+axes.facecolor      : white
+axes.edgecolor      : black
+axes.labelcolor     : black
+
+# with this you can print the colors
+# print(plt.rcParams['axes.prop_cycle'].by_key()['color'])
+
+# LINES
+lines.markersize    : 3
+
+# TICKS
+# xtick.labelsize     : 8
+# ytick.labelsize     : 8
+xtick.color         : black
+ytick.color         : black
+
+# IMAGES
+image.cmap          : viridis
+image.origin        : lower
+
+# GRIDS
+grid.linestyle      : --
+grid.alpha          : 0.7
+# grid.linewidth      : 0.4
+grid.color          : b0b0b0
+
+# FIGURE
+figure.titlesize    : 9
+figure.facecolor    : white
+figure.edgecolor    : black
+
+# LEGEND
+legend.fontsize     : 6
+legend.fancybox     : False
+legend.borderpad    : 0.4
+
+# SAVING FIGURES
+savefig.bbox        : tight
+savefig.pad_inches  : 0.03
