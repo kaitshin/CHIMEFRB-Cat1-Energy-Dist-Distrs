@@ -1,0 +1,3 @@
+Figure 1:
+For accurately getting the overall rate, we must account for the fact that the injections sample includes sources \tau > 10 ms, but the rate should not.
+The overall computed factor is `rate_correction_factor = 0.8165`, which should multiply the zeroth column of the pickle file. 
