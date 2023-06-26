@@ -1,3 +1,14 @@
+Data products from Shin et al. 2023 ApJ 944 105
+
 Figure 1:
+The `corner` package was used to generate the corner plot with `emcee_sampler_output.p`.
 For accurately getting the overall rate, we must account for the fact that the injections sample includes sources \tau > 10 ms, but the rate should not.
-The overall computed factor is `rate_correction_factor = 0.8165`, which should multiply the zeroth column of the pickle file. 
+The overall computed factor is `rate_correction_factor = 0.8165`, which should multiply the zeroth column of the pickle file. This value is derivable using the injections data release (https://www.canfar.net/citation/landing?doi=22.0005).
+
+Figure 9:
+This can be generated using the data in `P_obs(z).dat`.
+
+Figure 10:
+This can be generated using the data in `P_obs(z|DM).npz`.
+
+Further data products can be made available upon email request.
