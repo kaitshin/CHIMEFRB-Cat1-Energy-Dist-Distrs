@@ -1,5 +1,5 @@
 # Table containing the value of the 100 data points for the P_obs(z) distribution predicted by the best-fit model.
-# This distribution is visualized in blue in Figure 9.
+# A normalized version of this distribution is visualized in blue in Figure 9.
 # The redshift array z is spaced logarithmically from 10^-3 to 1, and linearly afterwards.
 z P_obs(z)
 0.001 0.0019044558616322703
